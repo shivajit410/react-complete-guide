@@ -8,6 +8,9 @@ class App extends Component {
         <h1>Hi, I'm a React App</h1>
       </div>
     );
+
+    // The above return command gets converted to the below command hence we import react even though we don't use it
+    // return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Does this work now?'))
   }
 }
 
